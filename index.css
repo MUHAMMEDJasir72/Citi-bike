@@ -1,0 +1,202 @@
+*{
+ list-style: none;   
+}
+.loGo{
+    height: 77px;
+    width: 288px;
+    margin-left: 27px;      
+}
+.lang-icon{
+position: absolute;
+right: 41px;
+top: 39px;
+}
+.join-button{
+position: absolute;
+right: 128px;
+top: 26px;
+padding: 9px 37px;
+border-radius: 30px;
+font-weight: bold;
+color: #fff;
+background-color:rgb(40, 40, 40);    
+}
+.nav-items{
+margin-right: 220px;    
+}
+.nav-Boxes li a{
+border-left:0.1px solid rgb(35, 33, 33);
+padding: 32px 40px;
+margin: 0px 30px;
+}
+.navbar{
+border-bottom:0.1px solid rgba(35,33,33);    
+}
+.home-image{
+    width: 726px;
+}
+.main-heading{
+    font-size: 69px;
+    font-weight: bold;
+    font-family: LyftProUI, sans-serif;
+    margin-bottom: 30px;   
+}
+.first-section{
+    padding: 80px 107px;
+}
+.second-section{
+    padding: 78px 10px;   
+}
+.third-section{
+    padding: 0px 10px;  
+}
+.downlod-section-1{
+width: 318px;
+}
+.downlod-section-2{
+width: 275px;    
+}
+.last-image{
+width:38%;    
+}
+.fourth-section{
+padding-top: 150px;    
+}
+.appstore{
+width: 122px;    
+}
+.playstore{
+width: 122px;
+}
+footer{
+background-color: black; 
+margin-top: 80px;  
+}
+.end-text{
+font-size: 12px;    
+}
+.citi-images{
+width: 100px;
+margin-left: 30px;    
+}
+.newyork-images{
+width: 77px;
+margin-top: 34px;
+}
+.health-images{
+ width: 162px;
+ margin-top: 39px;   
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1084px) and (min-width: 991px){
+.loGo{
+width: 222px;    
+}
+}
+@media (max-width: 1200px) and (min-width:992px){
+    .nav-Boxes li a{
+        margin: 0px;
+    }    
+}
+ @media (max-width: 1309px) and (min-width:992px){
+.main-heading{
+ font-size: 56px;
+ margin: 0px;   
+}
+.home-image{
+width: 582px;    
+} 
+.first-section{
+padding: 74px 51px;    
+}   
+} 
+@media (max-width: 576px){
+.loGo{
+ width:200px;   
+}
+.join-button{
+    padding: 5px 28px;   
+}
+.main-heading{
+font-size: 51px;    
+}
+}
+@media (max-width: 470px){
+.side-Bar{
+font-size: 13px;
+}
+.loGo{
+width: 150px;
+margin: 0px;    
+}
+.join-button{
+right: 79px;    
+}
+}
+@media (max-width: 991px){
+ .nav-items{
+ margin: 0px;
+ padding: 10px;   
+ }   
+.nav-Boxes{
+display: flex;
+align-items: end;    
+} 
+.nav-Boxes li a{
+ border-left:none;
+ margin: 0px;
+ padding: 0px;
+ line-height: 40px; 
+ font-family: sans-serif;   
+} 
+.lang-icon{
+right: 26px;
+top: 81px;   
+}
+.first-section{
+padding: 40px 0px;    
+}
+.main-heading{
+ margin: 0px;   
+} 
+.vr{
+margin-right: 24px;    
+}
+}
+@media (max-width: 413px){
+ .main-heading{
+ font-size: 34px;   
+ } 
+ .health-images{
+  margin-top: 15px;
+ } 
+ .newyork-images{
+  margin-top: 13px;  
+ } 
+ .social-icons{
+ padding: 14px;   
+ }
+}
+@media (max-width: 767px){
+.last-image{
+width: 100%;
+margin-top: 20px;    
+}
+.list-section-2{
+margin-top: 26px;
+} 
+.third-section-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+}
